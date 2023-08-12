@@ -1,12 +1,14 @@
+import React from "react";
+import image from "../assets/Group.jpg"
+
+
 function Logo() {
     return (
-        <div className="TitleShop">
+        <>
+          
+          <img src={image} alt="logo" className="groupLog"/>
 
-               <h3>ELETRICA</h3>
-               <h1>J.SANTOS</h1>
-               <h4> ------- DESDE 1970 ---------- </h4>
-
-        </div>
+        </>
     )
 }
 

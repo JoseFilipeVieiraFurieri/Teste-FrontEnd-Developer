@@ -1,0 +1,53 @@
+section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.NavBarContainer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navicon {
+    display: flex;
+    background-color: #FBAF17;
+    flex: 1; 
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 150px 0px 0px 150px;
+
+}
+
+.contactButton {
+    width: 142px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #203220;
+}
+
+
+
+.bubbles {
+    width: 156px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-left: 0px;
+    margin-right: 240px;
+    margin-top: 0px;
+    opacity: 0.8;
+}
+
+.shopLogo {
+    width: 144.989px;
+    height: 51.006px;
+    flex-shrink: 0;
+    margin-right: 262px;
+}
+
+
+
+
