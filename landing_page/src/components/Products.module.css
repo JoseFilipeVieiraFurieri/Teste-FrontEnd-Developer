@@ -1,0 +1,43 @@
+.products {
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+}
+
+.centralFigure {
+    display: flex;
+}
+
+.background1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 226px;
+    width: 1073px;
+    height: 456px;
+    border-radius: 0px 15px 0px 0px;
+    background: var(--azul-mais-escuro, #202332);
+}
+
+.null {
+  position: absolute;
+  z-index: 3;
+  margin-left: 580px;
+  margin-top: 50px;
+}
+
+.hide {
+  position: absolute;
+  z-index: 1;
+  margin-left: 1200px;
+  margin-top: 90px;
+}
+
+.hightlightProducs {
+    position: absolute;
+    color: antiquewhite;
+    z-index: 3;
+    margin-top: 350px;
+    margin-left: 650px;
+    font-size: larger;
+}

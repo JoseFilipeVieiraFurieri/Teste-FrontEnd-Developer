@@ -14,13 +14,43 @@ function NavBar() {
         
 
             <div className={styles.navicon}>
-               <text>Home</text>
-               <text>Categorias</text>
-               <text>Sobre</text>
-               <text>Localização</text>
-               <button type="button" className={styles.contactButton}>
-                 <text> Contato </text>
-               </button>
+               <nav className="nav">
+                 <ul>
+                   <li>
+                       <text>Home</text>
+                   </li>
+                   <li className={styles.dropbox}>
+
+                    <div class="dropdown">
+                        <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Categorias
+                        </button>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                         <span className="dropdown-item">Lâmpadas</span>
+                         <span className="dropdown-item">Lustres</span>
+                         <span className="dropdown-item">Luminárias</span>
+                         <span className="dropdown-item">Decorações</span>
+                         <span className="dropdown-item">Acessórios</span>
+                         <span className="dropdown-item">Ferramentas</span>
+                         <span className="dropdown-item">Utensílios Domésticos</span>
+                         <span className="dropdown-item">Cabos</span>
+                 </div>
+             </div>
+          
+                   </li>
+                   <li>
+                        <text>Sobre</text>
+                   </li>
+                   <li>
+                     <text>Localização</text>
+                   </li>
+                   <li>
+                     <button type="button" className={styles.contactButton}>
+                       <text className={styles.ButtonText}> Contato </text>
+                     </button>
+                   </li>
+                 </ul>
+               </nav>
             </div>
 
         </div>

@@ -48,6 +48,40 @@ section {
     margin-right: 262px;
 }
 
+.ButtonText {
+    color: white
+}
+
+.dropbox:hover .dropmenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropmenu {
+   display: flex;
+   flex-direction: column;
+   display: none;
+}
+
+nav  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+
+nav li {
+    color: #203220;
+    text-decoration: none;
+    padding: 15px;
+    list-style: none;
+}
+
+nav li text:hover {
+   border-bottom: 2px solid #fff;
+}
+
+
 
 
 
