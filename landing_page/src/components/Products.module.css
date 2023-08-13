@@ -41,3 +41,8 @@
     margin-left: 650px;
     font-size: larger;
 }
+
+.cardContainer {
+
+  display:flex;
+}

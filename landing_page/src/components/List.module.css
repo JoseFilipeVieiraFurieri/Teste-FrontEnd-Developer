@@ -1,0 +1,81 @@
+.blackBar {
+    position: absolute;
+    z-index: 6;
+    width: 217px;
+    height: 19px;
+    border-radius: 15px;
+    background: var(--azul-mais-escuro, #202332);
+    margin-top: 205px;
+    margin-right: 100px;
+    top: 0px;
+    left: 30px;
+    
+}
+
+.productCard {
+    position: relative;
+    display: flex;
+    top: 400px;
+    margin-top: 40px;
+    height: 450px;
+    width: 263px;
+    left: 380px;
+    background-color: lightgrey;
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.imageCard {
+    position: absolute;
+    z-index: 4;
+}
+
+.cardName {
+    position: absolute;
+    z-index: 4;
+    margin-top: 250px;
+    margin-left: 35px;
+    font-size: larger;
+}
+
+.fullPrice {
+    position: absolute;
+    z-index: 4;
+    margin-top: 320px;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.discount {
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    margin-top: 320px;
+    margin-left: 150px;
+    width: 110px;
+    height: 30px;
+    border-radius: 15px 0px 0px 15px;
+    background: var(--amarelo, #FBAF17);
+}
+
+.categoriesTag {
+    position: absolute;
+    z-index: 4;
+    background: #E0E0E0;
+    border-radius: 0 15px 15px 0;
+    margin-top: 20px;
+}
+
+.creditOption {
+    position: absolute;
+    z-index: 4;
+    margin-top: 400px;
+    margin-left: 45px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    grid-row-gap: 0px;
+}
