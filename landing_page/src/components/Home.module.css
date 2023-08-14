@@ -4,9 +4,8 @@
 
   width: 1920px;
   height: 805px;
-  flex-shrink: 0;
   background: url("../assets/Rectangle29.jpg");
-  background-size: 100% 159.8%;
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
 }

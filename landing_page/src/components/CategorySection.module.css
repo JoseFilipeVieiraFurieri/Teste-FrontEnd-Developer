@@ -1,0 +1,33 @@
+.categoryContainer {
+    background-color: #FFF;
+    position: relative;
+    top: 565px;
+    height: 500px;
+    width: 2380px;
+    height: 1080px;
+    display: grid;
+    
+}
+
+.layoutFigure {
+    margin-top: 10px;
+}
+
+.layoutFigure {
+    width: 1920px;
+    height: 456px;
+    border-radius: 0px 15px 0px 0px;
+    background: var(--azul-mais-escuro, #202332);
+}
+
+.categoryText {
+    position: absolute;
+    color: white;
+    margin-left: 36%;
+    margin-top: 75px;
+    font-size: 35px;
+}
+
+.null {
+    margin-left: 42%;
+}

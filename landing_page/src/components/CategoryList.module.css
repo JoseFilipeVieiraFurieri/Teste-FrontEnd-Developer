@@ -1,0 +1,36 @@
+.categoryCard {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    top: 120px;
+    margin-bottom: 10px;
+    left: 200px;
+}
+
+.categoryName {
+    color: #FBAF17;
+    position: absolute;
+    margin-left: 28%;
+    top: 10px;
+    font-size: 22px;
+}
+
+.imageCard {
+    width: 263px;
+    height: 258px;
+    border-radius: 70px;
+    background: linear-gradient(180deg, #FBAF17 0%, #FBA017 100%);
+    margin: 50px 10px 0 0;
+}
+
+.cardContainer {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-row-gap: 0px;
+}

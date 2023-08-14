@@ -8,6 +8,8 @@ section {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    width: 1920px;
+    height: 80px;
 }
 
 

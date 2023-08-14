@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Products from './components/Products';
+import CategorySection from './components/CategorySection';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
        <NavBar />
        <Home />
        <Products />
+       <CategorySection />
      </div>
     </>
   );
