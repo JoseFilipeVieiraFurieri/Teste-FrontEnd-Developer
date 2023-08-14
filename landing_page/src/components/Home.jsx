@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from "./Home.module.css";
 import { AiOutlineArrowDown } from "react-icons/ai";
-import image from "../assets/Ellipse25.jpg"
-import image2 from "../assets/pricetags.jpg"
-import image3 from "../assets/Group19.png"
-import image4 from "../assets/mulher.png"
-import image5 from "../assets/stars.png"
+import image from "../assets/EllipseSemBorda.png";
+import image2 from "../assets/pricetags.jpg";
+import image3 from "../assets/Group19.png";
+import image4 from "../assets/mulher.png";
+import image5 from "../assets/stars.png";
 
 function Home() {
   return (

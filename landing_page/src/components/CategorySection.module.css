@@ -3,18 +3,15 @@
     position: relative;
     top: 565px;
     height: 500px;
-    width: 2380px;
+    width: 2381px;
     height: 1080px;
     display: grid;
 
 }
 
-.layoutFigure {
-    margin-top: 10px;
-}
 
 .layoutFigure {
-    width: 1920px;
+    width: 2381px;
     height: 456px;
     border-radius: 0px 15px 0px 0px;
     background: var(--azul-mais-escuro, #202332);
@@ -89,7 +86,7 @@
     position: absolute;
     z-index: 1;
     background: url("../assets/LampBackground.png");
-    width: 1920px;
+    width: 2381px;
     height: 381px;
     margin-top: 1200px;
 }
