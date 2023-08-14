@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Products from './components/Products';
 import CategorySection from './components/CategorySection';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
        <Home />
        <Products />
        <CategorySection />
+       <Footer />
      </div>
     </>
   );

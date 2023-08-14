@@ -1,0 +1,111 @@
+.footer {
+    position:absolute;
+    z-index: 4;
+    background-color: #202332;
+    width: 1920px;
+    height: 273px;
+    margin-top: 1850px;
+}
+
+.logo {
+    width: 145px;
+    height: 51px;
+    margin-left: 30%;
+    margin-top: 35px;
+}
+
+.footerText {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 360px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.8px;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.icons {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    width: 400px;
+    height: 2px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    margin-left: 1100px;
+    margin-bottom: 30px;
+}
+
+.iconLayer {
+    margin-left: 40px;
+    
+}
+
+
+
+.logoWhatsapp {
+    width: 22px;
+    height: 22px;
+}
+
+.logoInstagram {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+
+.logoFacebook {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.line {
+    background-color: #FBAF17;
+    width: 1140px;
+    height: 1px;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.bottomText {
+    position: absolute;
+    z-index: 4;
+    color: #FFF;
+    margin-left: 30%;
+    
+}
+
+.developerText {
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-align: right; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-left: 80%;
+}
+
+.bubbleFooter {
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    height: 190px;
+    margin-left: 92%;
+    overflow: hidden;
+    bottom: 30px;
+    
+}
