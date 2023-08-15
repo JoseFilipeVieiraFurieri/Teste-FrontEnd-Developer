@@ -11,7 +11,7 @@
 
 
 .layoutFigure {
-    width: 2381px;
+    width: 1960px;
     height: 456px;
     border-radius: 0px 15px 0px 0px;
     background: var(--azul-mais-escuro, #202332);
@@ -20,19 +20,21 @@
 .categoryText {
     position: absolute;
     color: white;
-    margin-left: 36%;
+    margin-left: 35%;
     margin-top: 75px;
-    font-size: 35px;
+    font-size: 45px;
+    width: 501px;
+    height: 25px;
 }
 
 .null {
-    margin-left: 42%;
+    margin-left: 40%;
 }
 
 .optionText {
     position: absolute;
     margin-top: 280px;
-    left: 21%;
+    left: 500px;
     font-size: 35px;
 }
 .shopImage {
@@ -128,3 +130,304 @@
     left: 46%;
 
 }
+
+@media screen and (max-width: 1920px) {
+    .lampBackground {
+        
+        width: 1960px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .layoutFigure {
+        margin-top: 200px;
+    }
+
+    .categoryContainer {
+        background-color: #FFF;
+        position: relative;
+        top: 560px;
+        height: 470px;
+        width: 1025px;
+        height: 1080px;
+        left: 0px;
+        display: grid;
+    
+    }
+
+    .null {
+        margin-left: 300px;
+    }
+
+
+
+    .blackSquare {
+        position: absolute;
+        z-index: 1;
+        width: 290px;
+        height: 329px;
+        background: #202332;
+        margin-top: 450px;
+    }
+
+    .shopImage {
+        left: 180px;
+        width: 400px;
+    }
+
+    .yellowRectangle {
+        left: 230px;
+    }
+
+    .knowButton {
+        left: 750px;
+    }
+
+    .shopText {
+        font-size: 18px; 
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%; 
+        left: 680px; 
+        margin-top: 450px; 
+        
+    }
+
+    .lampBackground {
+        position: absolute;
+        z-index: 1;
+        background: url("../assets/LampBackground.png");
+        width: 1280px;
+        height: 381px;
+        margin-top: 1165px;
+        left: 0px;
+    }
+
+    .thinkingWoman {
+      left: 100px;
+      top: 940px
+    }
+
+    .anotherBubbles {
+        left: 180px;
+    }
+
+    .salesButton {
+        top: 1000px;
+    }
+
+    .categoryText {
+        margin-left: 500px;
+    }
+
+    .null {
+        margin-left: 480px;
+    }
+
+    .optionText {
+        left: 500px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1024px) {
+    .layoutFigure {
+        margin-top: 200px;
+    }
+
+    .categoryContainer {
+        background-color: #FFF;
+        position: relative;
+        top: 560px;
+        height: 470px;
+        width: 1025px;
+        height: 1080px;
+        left: 0px;
+        display: grid;
+    
+    }
+
+    .null {
+        margin-left: 300px;
+    }
+
+
+
+    .blackSquare {
+        position: absolute;
+        z-index: 1;
+        width: 290px;
+        height: 329px;
+        background: #202332;
+        margin-top: 450px;
+    }
+
+    .shopImage {
+        left: 0px;
+        width: 400px;
+    }
+
+    .yellowRectangle {
+        left: 50px;
+    }
+
+    .knowButton {
+        left: 640px;
+        top: 1060px;
+        width: 400px;
+        font-size: 25px;
+    }
+
+    .shopText {
+        font-size: 25px; 
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%; 
+        left: 500px; 
+        margin-top: 450px; 
+        
+    }
+
+    .lampBackground {
+        position: absolute;
+        z-index: 1;
+        background: url("../assets/LampBackground.png");
+        width: 1280px;
+        height: 381px;
+        margin-top: 1165px;
+        left: 0px;
+    }
+
+    .thinkingWoman {
+      left: 100px;
+      top: 940px
+    }
+
+    .anotherBubbles {
+        left: 180px;
+    }
+
+    .salesButton {
+        top: 1000px;
+    }
+
+    .categoryText {
+        margin-left: 500px;
+    }
+
+    .null {
+        margin-left: 480px;
+    }
+
+    .optionText {
+        left: 500px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 440px) {
+    .layoutFigure {
+        margin-top: 1200px;
+    }
+
+    .categoryContainer {
+        background-color: #FFF;
+        position: relative;
+        margin-top: 300px;
+        top: 2000px;
+        height: 470px;
+        width: 1025px;
+        height: 1080px;
+        left: 0px;
+        display: grid;
+    
+    }
+
+    .null {
+        margin-left: 300px;
+    }
+
+
+
+    .blackSquare {
+        position: absolute;
+        z-index: 1;
+        width: 0px;
+        height: 0px;
+        background: #202332;
+        margin-top: 1250px;
+    }
+
+    .shopImage {
+        left: 0px;
+        width: 400px;
+        margin-top: 1200px;
+    }
+
+    .yellowRectangle {
+        left: 50px;
+        margin-top: 1100px;
+    }
+
+    .knowButton {
+        left: 640px;
+        top: 1060px;
+        width: 400px;
+        font-size: 25px;
+    }
+
+    .shopText {
+        font-size: 25px; 
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%; 
+        left: 500px; 
+        margin-top: 2050px; 
+        
+    }
+
+    .lampBackground {
+        position: absolute;
+        z-index: 1;
+        background: url("../assets/LampBackground.png");
+        width: 1280px;
+        height: 381px;
+        margin-top: 1700px;
+        left: 0px;
+    }
+
+    .thinkingWoman {
+      left: 100px;
+      top: 4500px;
+    }
+
+    .anotherBubbles {
+        left: 180px;
+        margin-top: 1800px;
+    }
+
+    .salesButton {
+        top: 1000px;
+    }
+
+    .categoryText {
+        margin-left: 500px;
+    }
+
+    .null {
+        margin-left: 480px;
+    }
+
+    .optionText {
+        left: 500px;
+    }
+
+    
+
+}
+
+

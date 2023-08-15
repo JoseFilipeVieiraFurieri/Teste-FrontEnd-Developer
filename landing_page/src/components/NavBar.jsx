@@ -14,7 +14,7 @@ function NavBar() {
         
 
             <div className={styles.navicon}>
-               <nav className="nav">
+               <nav className={styles.nav}>
                  <ul>
                    <li>
                        <text>Home</text>
@@ -25,7 +25,7 @@ function NavBar() {
                         <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            <text className={styles.buttonText}>Categorias</text>
                         </button>
-                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <div className="dropdown-menu fs-1" aria-labelledby="dropdownMenuButton">
                          <span className="dropdown-item">Lâmpadas</span>
                          <span className="dropdown-item">Lustres</span>
                          <span className="dropdown-item">Luminárias</span>

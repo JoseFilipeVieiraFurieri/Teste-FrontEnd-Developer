@@ -21,7 +21,7 @@
     width: 263px;
     left: 380px;
     background-color: lightgrey;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 15px 15px;
     
 }
 
@@ -34,8 +34,12 @@
     position: absolute;
     z-index: 4;
     margin-top: 250px;
-    margin-left: 35px;
-    font-size: larger;
+    bottom: 150px;
+    margin-left: 20%;
+    margin-right:15%;
+    font-size: 23px;
+    text-align: center;
+    
 }
 
 .fullPrice {
@@ -44,6 +48,7 @@
     margin-top: 320px;
     text-decoration: line-through;
     margin-left: 10px;
+    font-size: 20px;
 }
 
 .discount {
@@ -56,6 +61,7 @@
     height: 30px;
     border-radius: 15px 0px 0px 15px;
     background: var(--amarelo, #FBAF17);
+    font-size: 20px;
 }
 
 .categoriesTag {
@@ -79,3 +85,67 @@
     grid-gap: 25px;
     grid-row-gap: 0px;
 }
+
+@media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+  }
+
+@media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+
+    .categoriesTag {
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    .cardContainer {
+        grid-template-columns: repeat(4, 1fr);
+        left: 20px;
+        top: 600px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+  }
+
+@media screen and (max-width: 440px) {
+    .cardContainer {
+        grid-template-columns: repeat(1, 1fr);
+        left: 20px;
+        top: 600px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .productCard {
+       left: 70px;
+       margin-top: 30px;
+    }
+
+    .categoriesTag {
+        font-size: 20px;
+    }
+  }

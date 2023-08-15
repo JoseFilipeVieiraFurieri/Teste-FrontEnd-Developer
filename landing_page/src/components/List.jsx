@@ -56,8 +56,8 @@ export default function List() {
             credit: "ou em 4x de R$ 25,00"  
           },
           { img: image7,
-            name: "Ventilador 2 em 1, mesa e parede",
-            category: "Lustres",
+            name: "Ventilador parede e mesa",
+            category: "Acessórios",
             fullPrice : " R$ 50,00",
             discount:  " R$ 30,00",
             credit: ""  
