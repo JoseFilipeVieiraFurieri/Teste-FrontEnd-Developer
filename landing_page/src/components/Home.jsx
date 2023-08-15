@@ -12,7 +12,7 @@ function Home() {
     
     <div className={styles.home}>
           <div className={styles.homeText}>
-              <h1 className={`badge text-wrap text-break fs-1 text-start ${styles.customH1}`}>ILUMINE O SEU
+              <h1 className={`text-wrap text-break text-start  ${styles.customH1}`}>ILUMINE O SEU
                   DIA A DIA</h1>
               <h6 className={`badge text-wrap text-break fs-6 text-start lh-lg ${styles.customH6}`}>
 
