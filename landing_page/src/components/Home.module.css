@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     width: 35rem;
-    margin-left: 16%;
+    margin-left: 17vw;
     align-items: flex-start;
     position: absolute;
     padding: 14px 26px 14px 0;
@@ -34,7 +34,7 @@
     font-family: sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
-    font-weight: 400px;
+    font-weight: 450px;
     line-height: 38px; 
 }
 
@@ -46,26 +46,25 @@
     height: 5.8vh;
     margin-bottom: 30px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
     color: var(--azul-mais-escuro, #202332)
 }
 
 .button2 {
     width: 68%;
     height: 63px;
-    flex-shrink: 0;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid var(--white, #FFF);
     background: none;
     color: #FFF;
     margin-bottom: 3vh;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bolder;
 }
 
 .rollText {
     margin-left: 15px;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 .sectionRoll {
@@ -79,10 +78,10 @@
 
 .lightSector {
     width: 300px;
-    height: 280px;
+    height: 282px;
     background-image: url("../assets/trueLight.png");
-    top: 4vh;
-    left: 46%;
+    top: 2.2vh;
+    left: 48vw;
     position: absolute;
     margin-top: 45vh;
     background-size: cover;
@@ -96,8 +95,8 @@
     position: absolute;
     margin-top: 210px;
     z-index: 5;
-    top: 260px;
-    left: 76.4rem;
+    top: 20.2vh;
+    left: 53.6vw;
     width: 70px;
 }
 
@@ -105,8 +104,8 @@
     position: absolute;
     margin-bottom: 180px;
     margin-top: 215px;
-    top: 18.8vh;
-    left: 76.7rem;
+    top: 17.8vh;
+    left: 77.5rem;
     z-index: 5;
     width: 60px;
     height: 10vh;
@@ -120,9 +119,9 @@
 .image2 {
     position: absolute;
     z-index: 6; 
-    left: 77.3rem;
+    left: 54.2vw;
     margin-top: 226px;
-    top: 260px;
+    top: 20.4vh;
     width: 40px;
   }
 
@@ -140,10 +139,10 @@
   width: 600px;
   height: 850px;
   position: absolute;
-  bottom: -685px; /* Ajuste para o valor desejado */
-  top: 1vh;
+  bottom: -685px; 
+  top: 0.2vh;
   left: 1600px;
-  transform: translateX(-50%); /* Centralizar horizontalmente */
+  transform: translateX(-50%); 
   z-index: 2;
 }
 

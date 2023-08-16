@@ -4,6 +4,8 @@ import image from "../assets/null.png"
 import image2 from "../assets/eletrica.png"
 import image3 from "../assets/Group19.png"
 import image4 from "../assets/thinkingWoman.png"
+import image5 from "../assets/whiteYellowCircle.png"
+import image6 from "../assets/thumbs-up-sharp.png"
 import CategoryList from './CategoryList'
 
 export default function CategorySection() {
@@ -29,6 +31,8 @@ export default function CategorySection() {
            <div className={styles.blackSquare}></div>
            <div className={styles.yellowRectangle}></div>
            <div className={styles.lampBackground}></div>
+           <img src={image5} alt="circulo branco e laranja"  className={styles.borderOrange}/>
+           <img src={image6} alt="joinha" className={styles.thumbsUp} />
            <img src={image3} alt="Bolhas do background" className={styles.anotherBubbles}/>
            <img src={image4} alt="Mulher pensando" className={styles.thinkingWoman}/>
            <button type='button' className={styles.salesButton}>ACIONE NOSSO TELEVENDAS</button>

@@ -4,13 +4,14 @@
     background-color: #202332;
     width: 100%;
     height: 273px;
-    margin-top: 1840px;
+    margin-top: 1778px;
+    margin-bottom: 20vh;
 }
 
 .logo {
     width: 145px;
     height: 51px;
-    margin-left: 308px;
+    margin-left: 22vw;
     margin-top: 35px;
 }
 
@@ -28,15 +29,16 @@
     font-weight: 400;
     line-height: 38px; /* 237.5% */
     letter-spacing: -0.8px;
-    margin-top: 30px;
-    margin-left: 308px;
+    margin-top: 32px;
+    margin-left: 42.5vh;
+    margin-bottom: 20vh;
 }
 
 .icons {
     position: absolute;
     z-index: 4;
     display: flex;
-    width: 400px;
+    width: 650px;
     height: 2px;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +48,9 @@
 }
 
 .iconLayer {
-    margin-left: 40px;
+    margin-left: 440px;
+    width: 300px;
+    margin-top: 2vh;
     
 }
 
@@ -55,26 +59,27 @@
 .logoWhatsapp {
     width: 22px;
     height: 22px;
+    margin-right: 1vw;
 }
 
 .logoInstagram {
     width: 22px;
     height: 22px;
-    margin-left: 10px;
+    margin-right: 1vw;
 }
 
 
 .logoFacebook {
     width: 22px;
     height: 22px;
-    margin-left: 10px;
+    margin-right: 1vw;
 }
 
 .line {
     background-color: #FBAF17;
     width: 1140px;
     height: 1px;
-    margin-left: 308px;
+    margin-left: 22vw;
     margin-top: 100px;
 }
 
@@ -82,21 +87,30 @@
     position: absolute;
     z-index: 4;
     color: #FFF;
-    margin-left: 308px;
+    margin-left: 22vw;
+    font-size: 20px;
+    margin-top: 2vh;
     
 }
+
+.iconText {
+    margin-left: 18vw;
+    font-size: 15px;
+}
+
 
 .developerText {
     position: absolute;
     z-index: 2;
     color: #FFF;
     text-align: right; 
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.48px;
-    margin-left: 80%;
+    margin-left: 63.2vw;
+    margin-top: 2.3vh;
 }
 
 .bubbleFooter {
@@ -104,7 +118,7 @@
     z-index: 1;
     width: 190px;
     height: 190px;
-    margin-left: 200px;
+    margin-left: 90vw;
     overflow: hidden;
     bottom: 30px;
     
