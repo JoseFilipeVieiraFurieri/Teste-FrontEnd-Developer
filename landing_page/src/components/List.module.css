@@ -16,11 +16,11 @@
     position: relative;
     display: flex;
     top: 400px;
-    margin-top: 40px;
+    margin-top: 0.1vh;
     height: 450px;
     width: 263px;
-    left: 380px;
-    background-color: lightgrey;
+    left: 38rem;
+    background-color: #fff;
     border-radius: 15px 15px 15px 15px;
     
 }

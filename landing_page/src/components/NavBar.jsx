@@ -13,7 +13,7 @@ function NavBar() {
           </section>
         
 
-            <div className={styles.navicon}>
+          <div className={styles.navicon}>
                <nav className={styles.nav}>
                  <ul>
                    <li>
@@ -35,7 +35,7 @@ function NavBar() {
                          <span className="dropdown-item">Utensílios Domésticos</span>
                          <span className="dropdown-item">Cabos</span>
                  </div>
-             </div>
+          </div>
           
                    </li>
                    <li>
