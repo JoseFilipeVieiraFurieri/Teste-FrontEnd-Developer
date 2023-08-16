@@ -14,10 +14,10 @@ function Home() {
           <div className={styles.homeText}>
               <h1 className={`text-wrap text-break text-start  ${styles.customH1}`}>ILUMINE O SEU
                   DIA A DIA</h1>
-              <h6 className={`badge text-wrap text-break fs-6 text-start lh-lg ${styles.customH6}`}>
+              <h6 className={`text-wrap text-break text-start  ${styles.customH6}`}>
 
-                  Aqui na Eletrica J.Santos queremos trazer mais luz para o <br />
-                  seu dia a dia! Temos produtos para toda sua casa com a melhor <br />
+                  Aqui na Eletrica J.Santos queremos trazer mais luz para o seu dia<br />
+                  a dia! Temos produtos para toda sua casa com a melhor <br />
                   qualidade e atendimento da região!
 
               </h6>

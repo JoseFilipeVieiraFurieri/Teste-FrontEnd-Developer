@@ -16,7 +16,6 @@ section {
 .navicon {
     display: flex;
     background-color: #FBAF17;
-    flex: 1; 
     justify-content: flex-start;
     border-radius: 150px 0px 0px 150px;
     height: 10vh;
@@ -25,6 +24,7 @@ section {
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.54px;
+    width: 100%;
     
   
 
@@ -87,7 +87,7 @@ nav  ul {
     align-items: center;
     text-decoration: none;
     margin-top: 2vh;
-    margin-left: 40%;
+    margin-left: 24%;
   }
 
 nav li {
