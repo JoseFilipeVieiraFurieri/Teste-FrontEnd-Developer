@@ -3,19 +3,20 @@
 .home {
 
   width: 100%;
-  height: 66%;
+  height: 72%;
   background: url("../assets/Rectangle29.jpg");
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size:cover;
   display: flex;
   margin-top: 0vh;
+  margin-right: 20vw;
 }
 
 .homeText {
     color: #fff;
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    width: 35rem;
     margin-left: 16%;
     align-items: flex-start;
     position: absolute;
@@ -41,25 +42,30 @@
 .button1 {
     background-color: #FBAF17;
     border-radius: 15px;
-    width: 360px;
-    height: 63px;
-    flex-shrink: 0;
+    width: 68%;
+    height: 5.8vh;
     margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--azul-mais-escuro, #202332)
 }
 
 .button2 {
-    width: 360px;
+    width: 68%;
     height: 63px;
     flex-shrink: 0;
     border-radius: 15px;
     border: 1px solid var(--white, #FFF);
     background: none;
     color: #FFF;
-    margin-bottom: 40px;
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 .rollText {
     margin-left: 15px;
+    font-size: 1.8rem;
 }
 
 .sectionRoll {
@@ -72,13 +78,13 @@
 }
 
 .lightSector {
-    width: 263px;
-    height: 200px;
-    background-image: url("../assets/Rectangle30.jpg");
-    top: 200px;
-    left: 880px;
+    width: 300px;
+    height: 280px;
+    background-image: url("../assets/trueLight.png");
+    top: 4vh;
+    left: 46%;
     position: absolute;
-    margin-top: 390px;
+    margin-top: 45vh;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -88,21 +94,22 @@
 
 .elipse {
     position: absolute;
-    margin-left: 38%;
     margin-top: 210px;
     z-index: 5;
     top: 260px;
-    left: 980px;
+    left: 76.4rem;
+    width: 70px;
 }
 
 .whiteCircle {
     position: absolute;
     margin-bottom: 180px;
     margin-top: 215px;
-    margin-left: 40%;
-    top: 260px;
-    left: 985px;
+    top: 18.8vh;
+    left: 76.7rem;
     z-index: 5;
+    width: 60px;
+    height: 10vh;
 }
 
 
@@ -113,10 +120,10 @@
 .image2 {
     position: absolute;
     z-index: 6; 
-    left: 400px;
+    left: 77.3rem;
     margin-top: 226px;
     top: 260px;
-    left: 995px;
+    width: 40px;
   }
 
 .image3 {
@@ -125,17 +132,17 @@
     height: 252px;
     z-index: 1;
     top: 230px;
-    left: 1300px;  
+    left: 103rem;  
     background-color: rgba(0, 0, 0, 0);
 }
 
 .image4 {
-  width: 467px;
-  height: 796px;
+  width: 600px;
+  height: 850px;
   position: absolute;
   bottom: -685px; /* Ajuste para o valor desejado */
-  top: 8px;
-  left: 1250px;
+  top: 1vh;
+  left: 1600px;
   transform: translateX(-50%); /* Centralizar horizontalmente */
   z-index: 2;
 }
@@ -144,40 +151,29 @@
   display: flex;
   align-items: center;
   position: absolute;
-  width: 240px;
-  height: 520px;
+  width: 287px;
+  height: 83px;
   z-index: 4;
   background-color: #FFF;
-  top: 720px;
-  left: 1200px;
-  height: 50px;
+  top: 62vh;
+  left: 93rem;
   border-radius: 15px;
 
 }
 
 .star {
-    margin-left: 12px;
+    margin-left: 2.5rem;
 }
 
 .bottonCircle {
     position: absolute;
     z-index: 1;
-    top: 540px;
-    left: 960px;
+    top: 50vh;
+    left: 80rem;
 }
 
 .customH1 {
-    font-size: 40px;
-}
-
-@media screen and (max-width: 1920px) {
-    .home {
-
-        width: 1960px;
-        height: 805px;
-        background-size: 100%;
-        background-repeat: no-repeat;
-      }
+    font-size: 70px;
 }
 
 
